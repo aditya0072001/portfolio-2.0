@@ -1,16 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Profile from './components/profile.js'
+import Header from './components/header.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          And it comes <code>React.js + Django</code>
-        </p>
+        <Header></Header>
       </header>
+      <Profile></Profile>
     </div>
   );
 }
