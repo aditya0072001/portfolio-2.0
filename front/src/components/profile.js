@@ -29,6 +29,28 @@ class Profile extends React.Component {
         </ul>
       </div>
     </div>
+    <br/>
+    <div class="skills">
+        <div class="skill">
+            <p>WEB DEVELOPMENT</p>
+            <div class="skill-bar skill1 wow slideInLeft animated">
+                <span class="skill-count1">95%</span>
+            </div>
+        </div>
+        <div class="skill">
+            <p>DATA SCIENCE</p>
+            <div class="skill-bar skill2 wow slideInLeft animated">
+                 <span class="skill-count2">85%</span>
+            </div>
+        </div>
+        <div class="skill">
+            <p>ANDROID-DEVELOPMENT</p>
+            <div class="skill-bar skill3 wow slideInLeft animated">
+                <span class="skill-count3">80%</span>
+            </div>
+        </div>
+    </div>
+    <br></br>
    </div>
     }
   }
