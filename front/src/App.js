@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Profile from './components/profile.js'
 import Header from './components/header.js'
+import Project from './components/project';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header></Header>
       </header>
       <Profile></Profile>
+      <Project></Project>
     </div>
   );
 }
