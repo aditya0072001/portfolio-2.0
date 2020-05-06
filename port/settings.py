@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'do5xzn2z_j!b1jdvrga$9jheie70%srs$*j0qj-+gjfiybv=6t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['heuristic-jones-c38c4a.netlify.app','127.0.0.1']
 
 
 # Application definition
